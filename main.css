@@ -1,0 +1,145 @@
+body{
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h4, p, a, li{
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-
+}
+
+#mobileName{
+  margin-bottom:-10vh;
+}
+
+h2{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 60vw;
+  height: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display: none;
+}
+
+#projects{
+  position: relative;
+  top: 10vh;
+}
+
+#projects h2{
+  margin-left: 1vw;
+}
+
+.description h4, .description p {
+  text-align: center;
+}
+
+.links {
+  margin-top: 1vh;
+  width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+.text p{
+  color: gray;
+  font-size: 0.7em;
+}
+
+#about{
+  margin-top: 10vh;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+
+  #mobileName{
+    display:none;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  img{
+    width: 40vw;
+    height: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header{
+    display: block;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    opacity: 0.8;
+    border: 1px solid grey;
+  }
+
+  header a{
+    font-size: 0.75em;
+  }
+
+  nav{
+    float: right;
+  }
+
+  nav ul li{
+    display: inline-block;
+    float: left;
+    margin: 1vh 2.5vh 1vh 2.5vh;
+  }
+
+  #name{
+    position: relative;
+    float: left;
+  }
+
+  .links {
+    margin-top: 1vh;
+    width: 8vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    height: 10vh;
+  } 
+
+  .text p{
+    font-size: 0.9em;
+  }
+
+  #about{
+  margin-top: 20vh;
+  }
+
+}
